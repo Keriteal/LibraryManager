@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager", "LibraryManager\LibraryManager.csproj", "{91FAECC5-E670-4EF8-B504-51F369C384CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYSQL", "MYSQL\MYSQL.csproj", "{E6307BDF-A769-4356-8B78-7EA21032475E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91FAECC5-E670-4EF8-B504-51F369C384CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FAECC5-E670-4EF8-B504-51F369C384CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FAECC5-E670-4EF8-B504-51F369C384CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FAECC5-E670-4EF8-B504-51F369C384CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6307BDF-A769-4356-8B78-7EA21032475E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6307BDF-A769-4356-8B78-7EA21032475E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6307BDF-A769-4356-8B78-7EA21032475E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6307BDF-A769-4356-8B78-7EA21032475E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D2A5521-0127-4F66-AAD4-C6F6245A98E7}
+	EndGlobalSection
+EndGlobal
