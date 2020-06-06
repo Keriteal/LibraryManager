@@ -32,10 +32,10 @@
             this.book_id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.book_name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.book_count = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.book_remains = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnModify = new System.Windows.Forms.Button();
-            this.book_remains = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // bookslist
@@ -68,6 +68,10 @@
             // 
             this.book_count.Text = "数量";
             // 
+            // book_remains
+            // 
+            this.book_remains.Text = "剩余本数";
+            // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(12, 376);
@@ -98,10 +102,6 @@
             this.btnModify.UseVisualStyleBackColor = true;
             this.btnModify.Click += new System.EventHandler(this.btnModify_Click);
             // 
-            // book_remains
-            // 
-            this.book_remains.Text = "剩余本数";
-            // 
             // BookManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -115,6 +115,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "BookManager";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "书本管理";
             this.Load += new System.EventHandler(this.BookManager_Load);
             this.ResumeLayout(false);

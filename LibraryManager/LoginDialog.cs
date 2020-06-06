@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LibraryManager
 {
-    public partial class LoginWindow : Form
+    public partial class LoginDialog : Form
     {
-        public LoginWindow()
+        public LoginDialog()
         {
             InitializeComponent();
         }
@@ -50,8 +50,7 @@ borrowlog (
 FOREIGN KEY(userid) REFERENCES usertable(userid),
 FOREIGN KEY(bookid) REFERENCES booktable(bookid)
 );");
-                new OperationDialog().Show();
-                Hide();
+                Close();
             }
 
         }

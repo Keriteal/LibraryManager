@@ -113,17 +113,17 @@
     <Compile Include="ReturnDialog.Designer.cs">
       <DependentUpon>ReturnDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginWindow.cs">
+    <Compile Include="LoginDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginWindow.Designer.cs">
-      <DependentUpon>LoginWindow.cs</DependentUpon>
+    <Compile Include="LoginDialog.Designer.cs">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="OperationDialog.cs">
+    <Compile Include="OperationWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OperationDialog.Designer.cs">
-      <DependentUpon>OperationDialog.cs</DependentUpon>
+    <Compile Include="OperationWindow.Designer.cs">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -151,11 +151,11 @@
     <EmbeddedResource Include="ReturnDialog.resx">
       <DependentUpon>ReturnDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginWindow.resx">
-      <DependentUpon>LoginWindow.cs</DependentUpon>
+    <EmbeddedResource Include="LoginDialog.resx">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OperationDialog.resx">
-      <DependentUpon>OperationDialog.cs</DependentUpon>
+    <EmbeddedResource Include="OperationWindow.resx">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

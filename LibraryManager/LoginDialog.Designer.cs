@@ -1,6 +1,6 @@
 ﻿namespace LibraryManager
 {
-    partial class LoginWindow
+    partial class LoginDialog
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -129,7 +129,7 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "端口";
             // 
-            // LoginWindow
+            // LoginDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -147,7 +147,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "LoginWindow";
+            this.Name = "LoginDialog";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登录";
             this.ResumeLayout(false);
             this.PerformLayout();

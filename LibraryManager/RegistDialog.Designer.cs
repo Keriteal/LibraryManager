@@ -88,6 +88,7 @@
             this.Controls.Add(this.textUsername);
             this.Controls.Add(this.btnCommit);
             this.Name = "RegistDialog";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "注册新用户";
             this.ResumeLayout(false);
             this.PerformLayout();

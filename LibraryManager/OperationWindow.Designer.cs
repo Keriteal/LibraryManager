@@ -1,6 +1,6 @@
 ﻿namespace LibraryManager
 {
-    partial class OperationDialog
+    partial class OperationWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -74,7 +74,7 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // OperationDialog
+            // OperationWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -85,9 +85,11 @@
             this.Controls.Add(this.btnRegist);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "OperationDialog";
+            this.Name = "OperationWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "选择操作";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.OperationDialog_FormClosed);
+            this.Load += new System.EventHandler(this.OperationDialog_Load);
             this.ResumeLayout(false);
 
         }

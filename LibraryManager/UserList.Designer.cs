@@ -104,6 +104,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "UserList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "用户列表";
             this.Load += new System.EventHandler(this.UserList_Load);
             this.ResumeLayout(false);

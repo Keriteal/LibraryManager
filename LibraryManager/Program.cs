@@ -18,7 +18,7 @@ namespace LibraryManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginWindow());
+            Application.Run(new OperationWindow());
         }
     }
 
